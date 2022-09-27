@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+} 
+  /* ------ESTILOS DO BANNER------- */
+.banner {
+    background: #7E459B url("Imagens_website_margaret_Hamilton/IMG/banner-bg.png") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 19rem;
+    color: rgb(19, 15, 20);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.611);
+    border-radius: 3rem;
+    
+}
+
+.banner__titulo {
+    font-size: 3rem;
+    color:#b01371;
+    text-shadow: black 0.1rem 0.1rem;
+}
+
+.btn{
+    color: #8a12c6;
+    background-color: white;
+
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #b01371;
+
+}
+
+a{
+    text-decoration: none;
+}
+ /* -------FINALIZAÇÃO DOS ESTILOS DO BANNER --------*/
+
+
+ /* ESTILOS DA SESSÃO SOBRE  */
+ .sobre__div{
+    margin: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre__titulo{
+    font-size: 3rem;
+    color: #8a12c6;
+    text-shadow: black 0.1rem 0.01rem;
+}
+
+.sobre__descricao-div{
+    width: 50%;
+
+}
+
+.sobre__descricao-destaque{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+
+.btn_cv{
+    color: #8a12c6;
+    background-color: white;
+
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.btn_cv:hover{
+    color: white;
+    background-color: #b01371;
+
+}
+
+.sobre__habilidades-div{
+    width: 40%;
+    margin-top: 25px;
+
+}
+.sobre__habilidades-titulo{
+    font-size: 2rem;
+    color:#8a12c6;
+    text-shadow: black 0.1rem 0.01rem;
+}
+
+.sobre__habilidades-lista{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+ /* FIM ESTILOS DA SESSÃO SOBRE  */
+
+
+
+/* -------SEÇÃO REDES SOCIAIS------- */
+  
+.footer{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.redes__sociais-item{
+    display: inline-block;
+    width: 20%;
+    background-color: #967DA8;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+}
+
+.redes__sociais-img{
+    margin-bottom: 0.5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
